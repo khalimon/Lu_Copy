@@ -1,0 +1,406 @@
+/*GENERAL*/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+/*SERVICES*/
+
+section {
+    padding: 40px 0;
+}
+
+section .section-header {
+    margin-bottom: 70px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+section .section-header h2 {
+    font-family: 'Oswald', sans-serif;
+    color: #333;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+section h3 {
+    font-family: 'Lora', serifs;
+    color: #333;
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/*NAVBAR*/
+
+#main-nav {
+    background-color: transparent;
+
+}
+
+#main-nav.scroll {
+    background-color: rgba(28, 28, 28, 0.50);
+
+}
+
+#main-nav .nav-link {
+    font-family: 'Oswald', sans-serif;
+    transition: all 0.5s;
+    color: white;
+    font-size: 1.2em;
+    /*    padding: 10px 70px 0 0px;*/
+    margin-right: 25px;
+
+}
+
+.navbar-brand {
+    font-family: 'Lora', serif;
+    font-size: 2em;
+
+}
+
+.nav-social a {
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    position: relative;
+    line-height: 40px;
+    background-color: #f7f7f7;
+    border-radius: 50%;
+    color: #000;
+    transition: all 0.5s;
+    text-align: center;
+    margin: 5px 0 0 5px;
+
+    /* border: solid 1px #1c1c1c;*/
+}
+
+/*HEADER*/
+
+#main-header {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/header/pic.jpg);
+    height: 10vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#main-header .header-caption {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+/*
+#main-header .header-caption h2 {
+    font-size: 2em;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+#main-header .header-caption h1 {
+    font-size: 3em;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 900;
+    color: #000;
+}
+*/
+
+/*MEET*/
+
+#meet {
+    background-color: #f7f7f7;
+}
+
+#meet .section-header {
+    margin-bottom: 40px;
+}
+
+#meet .meet {
+    padding: 5px;
+    font-size: 0.95em;
+    font-family: 'Lora', serif;
+    text-align: justify;
+    width: 100%;
+    margin-left: 10px;
+    line-height: 30px;
+}
+
+#meet .illustration {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    position: relative;
+    border: 1px solid #000;
+}
+
+#meet button {
+    width: 30%;
+    text-align: center;
+    border-radius: 5%;
+    height: auto;
+    margin-top: 6%;
+    margin-left: 30%;
+    cursor: pointer;
+}
+
+
+/*PORTFOLIO*/
+
+#portfolio-nav a {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+#patterns {
+    display: none;
+}
+
+#portfolio-nav {
+    text-align: center;
+    width: 100%;
+    margin-top: -20px;
+}
+
+#portfolio-nav ul {
+    padding: 0px;
+}
+
+
+#portfolio-nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+
+#portfolio-nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+/*
+#portfolio-nav ul li a:hover {
+    color: gainsboro;
+}
+*/
+
+#portfolio-nav #drop,
+#portfolio-nav .toggle {
+    display: none;
+}
+
+#portfolio .section-header {
+    margin-bottom: 20px;
+}
+
+
+#portfolio {
+    background-color: #fff;
+    text-align: center;
+    align-items: center;
+}
+
+
+#portfolio figure {
+    background: #fff;
+}
+
+#portfolio .portfolio-image {
+    overflow: hidden;
+}
+
+#portfolio .portfolio-image-bg {
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: all 1s;
+    cursor: pointer;
+   }
+
+#portfolio .portfolio-image-bg:hover {
+    transform: scale(1.5);
+}
+
+
+#portfolio #portfolio-img-1 {
+    background-image: url(../img/fashion/4.jpg);
+}
+
+#portfolio #portfolio-img-2 {
+    background-image: url(../img/pattern/2.jpg);
+}
+
+#portfolio #portfolio-img-3 {
+    background-image: url(../img/fashion/2.jpg);
+}
+
+#portfolio #portfolio-img-4 {
+    background-image: url(../img/life/1.png);
+}
+
+#portfolio a {
+     text-decoration: none;
+    color: #000;
+}
+/*BE INSPIRED*/
+
+
+#about {
+    background-color: #f7f7f7;
+}
+
+#about .section-header {
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+#about .icon {
+    font-size: 3em;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    color: #f7f7f7;
+    transition: all 0.5s;
+}
+
+
+#about .icon:hover {
+    color: #0ed8d6;
+    background-color: #fff;
+    transform: rotate(360deg);
+}
+
+/*CONTACT*/
+
+.container {
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 5px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#contact {
+    background-color: #fff;
+    text-align: center;
+  }
+
+#contact .section-header {
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.contact-item {
+    position: relative;
+    padding: 0 0 0 120px;
+    margin-bottom: 20px;
+}
+
+.contact-item .icon {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 90px;
+}
+
+.contact-item .icon {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+span {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+}
+#contact h4 {
+    font-family: 'Lora', sans-serif;
+    color: #333;
+    font-size: 1em;
+    margin-top: 10px;
+}
+#contact p{
+    font-family: 'Lora', sans-serif;
+    font-size: 0.8em;
+}
+
+.contact-form form .input-text {
+    width: 100%;
+    padding: 10px 17px;
+    font-size: 14px;
+    border: 1px solid #f7f7f7;
+    background: #f7f7f7;
+    outline: 0;
+    height: 45px;
+    color: #383737;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.contact-form form textarea {
+    min-height: 100px;
+}
+
+.button-md {
+    padding: 8px 20px;
+    font-size: 13px;
+    text-align: left;
+    cursor: pointer;
+}
+
+.send-button {
+    background: transparent;
+    border: solid 1px #1c1c1c;
+    color: #1c1c1c;
+    border-radius: 0;
+    display: inline-block;
+    transition: all 1s;
+    text-transform: uppercase;
+    padding: 10px 25px;
+    margin-right: 250px;
+    margin-top: 10px;
+    border-radius: 5%;
+
+}
+
+#contact button:hover {
+    background-color: #f7f7f7;
+
+}
+
+
+/*FOOTER*/
+
+footer {
+    background: #f7f7f7;
+    padding: 15px 0;
+    text-align: center;
+    margin-top: 0px;
+    color: black;
+
+}
+
+.social-icon i {
+    color: black;
+    padding: 10px;
+    transition: all 0.5s;
+}
